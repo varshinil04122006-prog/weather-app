@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="weather-box">
+    <h1>🌤️ Weather App</h1>
+
+    <input type="text" id="city" placeholder="Enter city">
+    <button onclick="getWeather()">Get Weather</button>
+
+    <div id="result"></div>
+
+    <h2>API Documentation</h2>
+    <p><b>API:</b> Open-Meteo Weather API</p>
+    <p><b>Method:</b> GET</p>
+    <p><b>Geocoding:</b> Converts city name into latitude and longitude.</p>
+    <p><b>Weather API:</b> Gets temperature, humidity and wind speed.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
